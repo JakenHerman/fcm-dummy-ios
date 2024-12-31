@@ -6,12 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F32A32DB2D2316B6000E10C7 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = F32A32DA2D2316B6000E10C7 /* FirebaseCore */; };
+		F3E6A3322D2328F0002D3D9C /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = F3E6A3312D2328F0002D3D9C /* FirebaseMessaging */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		F37C80B52D230DF4007D0161 /* fcm-dummy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fcm-dummy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35538502D231673002060FE /* fcm-dummy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fcm-dummy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		F37C80B72D230DF4007D0161 /* fcm-dummy */ = {
+		F35538522D231673002060FE /* fcm-dummy */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "fcm-dummy";
 			sourceTree = "<group>";
@@ -19,28 +24,30 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F37C80B22D230DF4007D0161 /* Frameworks */ = {
+		F355384D2D231673002060FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3E6A3322D2328F0002D3D9C /* FirebaseMessaging in Frameworks */,
+				F32A32DB2D2316B6000E10C7 /* FirebaseCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F37C80AC2D230DF4007D0161 = {
+		F35538472D231673002060FE = {
 			isa = PBXGroup;
 			children = (
-				F37C80B72D230DF4007D0161 /* fcm-dummy */,
-				F37C80B62D230DF4007D0161 /* Products */,
+				F35538522D231673002060FE /* fcm-dummy */,
+				F35538512D231673002060FE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F37C80B62D230DF4007D0161 /* Products */ = {
+		F35538512D231673002060FE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F37C80B52D230DF4007D0161 /* fcm-dummy.app */,
+				F35538502D231673002060FE /* fcm-dummy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +55,70 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F37C80B42D230DF4007D0161 /* fcm-dummy */ = {
+		F355384F2D231673002060FE /* fcm-dummy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F37C80C42D230DF6007D0161 /* Build configuration list for PBXNativeTarget "fcm-dummy" */;
+			buildConfigurationList = F355385F2D231674002060FE /* Build configuration list for PBXNativeTarget "fcm-dummy" */;
 			buildPhases = (
-				F37C80B12D230DF4007D0161 /* Sources */,
-				F37C80B22D230DF4007D0161 /* Frameworks */,
-				F37C80B32D230DF4007D0161 /* Resources */,
+				F355384C2D231673002060FE /* Sources */,
+				F355384D2D231673002060FE /* Frameworks */,
+				F355384E2D231673002060FE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				F37C80B72D230DF4007D0161 /* fcm-dummy */,
+				F35538522D231673002060FE /* fcm-dummy */,
 			);
 			name = "fcm-dummy";
 			packageProductDependencies = (
+				F32A32DA2D2316B6000E10C7 /* FirebaseCore */,
+				F3E6A3312D2328F0002D3D9C /* FirebaseMessaging */,
 			);
 			productName = "fcm-dummy";
-			productReference = F37C80B52D230DF4007D0161 /* fcm-dummy.app */;
+			productReference = F35538502D231673002060FE /* fcm-dummy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F37C80AD2D230DF4007D0161 /* Project object */ = {
+		F35538482D231673002060FE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1610;
 				LastUpgradeCheck = 1610;
 				TargetAttributes = {
-					F37C80B42D230DF4007D0161 = {
+					F355384F2D231673002060FE = {
 						CreatedOnToolsVersion = 16.1;
+						LastSwiftMigration = 1610;
 					};
 				};
 			};
-			buildConfigurationList = F37C80B02D230DF4007D0161 /* Build configuration list for PBXProject "fcm-dummy" */;
+			buildConfigurationList = F355384B2D231673002060FE /* Build configuration list for PBXProject "fcm-dummy" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = F37C80AC2D230DF4007D0161;
+			mainGroup = F35538472D231673002060FE;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F32A32D92D2316B6000E10C7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = F37C80B62D230DF4007D0161 /* Products */;
+			productRefGroup = F35538512D231673002060FE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F37C80B42D230DF4007D0161 /* fcm-dummy */,
+				F355384F2D231673002060FE /* fcm-dummy */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F37C80B32D230DF4007D0161 /* Resources */ = {
+		F355384E2D231673002060FE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +128,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F37C80B12D230DF4007D0161 /* Sources */ = {
+		F355384C2D231673002060FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +138,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F37C80C22D230DF6007D0161 /* Debug */ = {
+		F355385D2D231674002060FE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +201,7 @@
 			};
 			name = Debug;
 		};
-		F37C80C32D230DF6007D0161 /* Release */ = {
+		F355385E2D231674002060FE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -243,82 +256,115 @@
 			};
 			name = Release;
 		};
-		F37C80C52D230DF6007D0161 /* Debug */ = {
+		F35538602D231674002060FE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "fcm-dummy/fcm_dummy.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7HBQV829UD;
+				DEVELOPMENT_ASSET_PATHS = "\"fcm-dummy/Preview Content\"";
+				DEVELOPMENT_TEAM = Z4AWYT9Z4C;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jakenherman.fcm-dummy";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rowanranch.fcm-dummy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		F37C80C62D230DF6007D0161 /* Release */ = {
+		F35538612D231674002060FE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "fcm-dummy/fcm_dummy.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7HBQV829UD;
+				DEVELOPMENT_ASSET_PATHS = "\"fcm-dummy/Preview Content\"";
+				DEVELOPMENT_TEAM = Z4AWYT9Z4C;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jakenherman.fcm-dummy";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rowanranch.fcm-dummy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F37C80B02D230DF4007D0161 /* Build configuration list for PBXProject "fcm-dummy" */ = {
+		F355384B2D231673002060FE /* Build configuration list for PBXProject "fcm-dummy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F37C80C22D230DF6007D0161 /* Debug */,
-				F37C80C32D230DF6007D0161 /* Release */,
+				F355385D2D231674002060FE /* Debug */,
+				F355385E2D231674002060FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F37C80C42D230DF6007D0161 /* Build configuration list for PBXNativeTarget "fcm-dummy" */ = {
+		F355385F2D231674002060FE /* Build configuration list for PBXNativeTarget "fcm-dummy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F37C80C52D230DF6007D0161 /* Debug */,
-				F37C80C62D230DF6007D0161 /* Release */,
+				F35538602D231674002060FE /* Debug */,
+				F35538612D231674002060FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F32A32D92D2316B6000E10C7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F32A32DA2D2316B6000E10C7 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F32A32D92D2316B6000E10C7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		F3E6A3312D2328F0002D3D9C /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F32A32D92D2316B6000E10C7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = F37C80AD2D230DF4007D0161 /* Project object */;
+	rootObject = F35538482D231673002060FE /* Project object */;
 }

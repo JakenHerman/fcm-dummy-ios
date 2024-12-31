@@ -1,0 +1,63 @@
+xcuserdata/
+
+# Xcode
+DerivedData/
+*.xcworkspace
+*.xccheckout
+!default.xcworkspace
+*.xcuserstate
+*.xcscheme
+*.xcsettings
+
+# Build artifacts
+build/
+Build/
+*.o
+*.LinkFileList
+*.dSYM
+
+# Swift Package Manager
+.swiftpm/
+Packages/
+Package.pins
+Package.resolved
+
+# CocoaPods
+Pods/
+podfile.lock
+podfile.state
+*.xcscmblueprint
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/*.png
+fastlane/test_output/
+
+# Temporary files
+*.moved-aside
+*.swp
+*.swo
+*.tmp
+*.DS_Store
+
+# Logs
+*.log
+*.trace
+
+# Environment files
+.env
+.env.*
+
+# Certificate and provisioning files
+*.cer
+*.mobileprovision
+*.p12
+
+# App icons and assets cache
+*.appiconset/Icon*.png
+fcm-dummy/GoogleService-Info.plist
